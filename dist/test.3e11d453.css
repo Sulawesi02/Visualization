@@ -1,0 +1,37 @@
+h1 {
+    color: black;
+    font-family: 黑体;
+    font-size: 24px;
+}
+
+svg {
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    text-align: left;
+}
+
+.x-axis text,
+.y-axis text {
+    fill: #666;
+}
+
+.data-point-Coal 
+.data-point-Petroleum,
+.data-point-Natural_Gas,
+.data-point-Primary_Electricity_and_Other_Energy {
+    transition: all 0.3s ease;
+}
+
+.tooltip {
+    position: absolute;
+    font-size: 12px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 6px;
+    border-radius: 2px;
+    pointer-events: none;
+}
+
+/*# sourceMappingURL=/test.3e11d453.css.map */
